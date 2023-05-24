@@ -23,10 +23,10 @@ public class GreatestCommonFactor {
                 greatesCommonDevison=num.get(i);
             }
         }
-        System.out.println("The greatest Common Devison is: "+greatesCommonDevison);
+        System.out.println("GCD is: "+greatesCommonDevison);
     }
     public static void main(String[] args) {
       GreatestCommonFactor gcf=new GreatestCommonFactor();
-      gcf.gcd(1000,145);
+      gcf.gcd(9,12);
     }
 }
